@@ -6,6 +6,8 @@ Small pieces of software which proved to be useful in our Android Development:
 
 [Persisted](Persisted/) - Kotlin delegate for persisting relatively complex data types (`List`, `Map`, custom classes...), which can be serialized to JSON
 
+[LoggingInterceptor](LoggingInterceptor/) - OkHttp Interceptor to log network requests/responses, more convenient than a standard `HttpLoggingInterceptor`
+
 ### License
 
 Licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
