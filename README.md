@@ -1,12 +1,16 @@
 # Android Gists
 
-Small pieces of software which proved to be useful in our Android Development:
+Pieces of code which proved to be useful in our Android development practice. They're too small to deserve publishing as libraries (and libraries might need more customization options, which complicates things), but valuable enough to be reused across our projects.
 
-[GetPostServer](GetPostServer/) - Simple file-base server on Python to provide mock network responses
+[GetPostServer](GetPostServer/) - Simple file-base server on Python to provide mock network responses for GET and POST requests
 
 [Persisted](Persisted/) - Kotlin delegate for persisting relatively complex data types (`List`, `Map`, custom classes...), which can be serialized to JSON
 
-[LoggingInterceptor](LoggingInterceptor/) - OkHttp Interceptor to log network requests/responses, more convenient than a standard `HttpLoggingInterceptor`
+[LoggingInterceptor](LoggingInterceptor/) - OkHttp Interceptor to log network requests/responses, more convenient (for us) than a standard `HttpLoggingInterceptor`
+
+[TokenAuthenticator](TokenAuthenticator/) - Example of OkHttp Interceptor & Authenticator for working with time-limited access tokens
+
+We share them as a repository because organizations on GitHub [still can't publish Gists](https://webapps.stackexchange.com/q/11011).
 
 ### License
 
